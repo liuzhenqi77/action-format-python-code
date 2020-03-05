@@ -1,0 +1,9 @@
+name: action-format-python-code
+description: running black on python code
+author: liuzhenqi77
+branding:
+  icon: shield
+  color: blue
+runs:
+  using: docker
+  image: Dockerfile
